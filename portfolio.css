@@ -1,0 +1,144 @@
+<style>
+.about-me{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  
+ 
+}
+.my-picture{
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+  border-radius: 125px;
+  
+ 
+}
+.introduction{
+  display: inline-block;
+  text-align: center;
+  letter-spacing: 1px;
+  vertical-align: middle;
+  
+}
+.picture{
+  display: inline-block;
+  vertical-align: top;
+  vertical-align: middle;
+  margin-right: 50px;
+
+}
+p{
+  margin-top: 0;
+}
+
+.greeting{
+  font-size: 14px;
+  margin-bottom: 12px;
+  color: gray;
+
+}
+
+.name{
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  
+}
+
+.job-role{
+  color: gray;
+  font-size: 24px;
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+.cv-button{
+  background-color: white;
+  font-size: 10px;
+  border-style: solid;
+  color: black;
+  padding: 8px 10px 8px 10px;
+  border-radius: 16px;
+  margin-right: 10px;
+}
+
+.contact-button{
+  background-color: black;
+  color: white;
+  border-style: solid;
+  font-size: 10px;
+  padding: 8px 10px 8px 10px;
+  border-radius: 16px;
+}
+.github-profile{
+  height: 20px;
+  width: 20px;
+  object-fit: cover;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.in-profile{
+  height: 24px;
+  width: 24px;
+  object-fit: cover;
+  vertical-align: middle;
+  
+  
+
+}
+
+.socials{
+  margin-top: 12px;
+
+}
+
+.header{
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  padding-left: 120px;
+  padding-right: 120px;
+  
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  padding-top: 40px;
+  z-index: 2;
+  
+  
+  
+  
+}
+.left-side{
+ 
+  flex: 1;
+  font-size: larger;
+  
+  
+}
+
+.right-side{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.overlay{
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+</style>
